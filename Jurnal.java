@@ -38,7 +38,7 @@ public class Jurnal {
 			return 1;
 		}
  
-		return fibonacciRecusion(number - 1) + fibonacciRecusion(number - 2); // tail recursion
+		return fibonacciRecusion(number - 1) + fibonacciRecusion(number - 2)+(1); // tail recursion
 	}
  
 	// Method-2: Java program for Fibonacci number using Loop.
